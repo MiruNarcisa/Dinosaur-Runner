@@ -17,7 +17,7 @@ function increaseTime() {
     document.getElementById("timer").innerHTML = "Time: " + seconds + "s";
 }
 
-const keyPressed = document.addEventListener('keydown', (event) => {
+const pressKey = document.addEventListener('keydown', (event) => {
     if (event.key === ' ') {
         if (isGameOver) {
             startGame();
